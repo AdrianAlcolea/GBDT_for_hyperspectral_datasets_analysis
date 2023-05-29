@@ -23,7 +23,6 @@ if '.' in __name__:
     # To run as a module
     from .lib import config
     from .lib.data import get_map, get_image
-    from .lib.analysis import bayesian_predictions, map_prediction
     from .lib.plot import plot_maps
 
 else:
@@ -31,7 +30,6 @@ else:
     # To run as an script
     from lib import config
     from lib.data import get_map, get_image
-    from lib.analysis import bayesian_predictions, map_prediction
     from lib.plot import plot_maps
 
 # PARAMETERS

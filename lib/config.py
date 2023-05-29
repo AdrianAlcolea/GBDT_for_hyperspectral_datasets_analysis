@@ -34,8 +34,6 @@ DATASETS = {
         'n_estimators': 200,
         'min_child_samples': 20,
         'max_depth': 20,
-        'mixed_class_A': 2,
-        'mixed_class_B': 5,
         # AVIRIS wavelengths for IP (for RGB representation)
         'wl' : np.linspace(400, 2500, num=224).take([
             0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
@@ -66,8 +64,6 @@ DATASETS = {
         'n_estimators': 300,
         'min_child_samples': 30,
         'max_depth': 5,
-        'mixed_class_A': 8,
-        'mixed_class_B': 11,
         # AVIRIS wavelengths for KSC (for RGB representation)
         'wl' : np.linspace(400, 2500, num=224).take([
             0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
@@ -98,8 +94,6 @@ DATASETS = {
         'n_estimators': 150,
         'min_child_samples': 30,
         'max_depth': 30,
-        'mixed_class_A': 3,
-        'mixed_class_B': 7,
         # ROSIS wavelengths (for RGB representation)
         'wl' : np.linspace(430, 860, num=115).tolist()
     },
@@ -116,8 +110,6 @@ DATASETS = {
         'n_estimators': 150,
         'min_child_samples': 80,
         'max_depth': 25,
-        'mixed_class_A': 1,
-        'mixed_class_B': 6,
         # AVIRIS wavelengths for SV (for RGB representation)
         'wl' : np.linspace(400, 2500, num=224).take([
             0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
@@ -168,8 +160,4 @@ MAP_COLOURS = [
     (245, 130, 48), (70, 240, 240), (240, 50, 230), (250, 190, 212),
     (0, 128, 128), (220, 190, 255), (170, 110, 40), (255, 250, 200),
     (128, 0, 0), (170, 255, 195), (0, 0, 128), (128, 128, 128)]
-MAP_GRADIENTS = [
-    (77, 230, 54), (135, 229, 53), (193, 229, 52), (229, 206, 51),
-    (228, 146, 50), (228, 86, 49), (228, 48, 71), (227, 47, 130),
-    (227, 46, 189), (204, 45, 227), (143, 44, 226), (81, 43, 226),
-    (42, 64, 226), (41, 125, 225), (40, 185, 225), (39, 225, 202)]
+

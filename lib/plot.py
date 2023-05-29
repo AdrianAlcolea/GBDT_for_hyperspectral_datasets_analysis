@@ -15,7 +15,6 @@ __license__ = "GPLv3"
 __credits__ = ["Adrián Alcolea", "Javier Resano"]
 
 import os
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
